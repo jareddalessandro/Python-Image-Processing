@@ -1,6 +1,9 @@
 # Python Image Processing
 ## Basic example script showing how to manipulate an image at the pixel level using python. 
 
+## Dependencies
+- pip install Pillow
+
 ## Before
 ![road](https://user-images.githubusercontent.com/13529116/93648179-fce21980-f9be-11ea-8915-59fa0e8cb0e5.jpg)
 
