@@ -20,6 +20,7 @@ def basicLighten(orig_image):
             red, blue, green = orig_image.getpixel((x, y))
 
             # Logic for changing RGB values per pixel
+            # putpixel((tuple containing coordinates), (red value, green value, blue value))
             new_image.putpixel((x, y), (int(red * 2), int(blue * 2), int(green * 2)))
             
 
