@@ -1,8 +1,5 @@
 from PIL import Image
-# You will need to pip install pillow
-# Rotation issues / image size issues: 
-# https://github.com/python-pillow/Pillow/issues/2651 
-# https://stackoverflow.com/questions/4228530/pil-thumbnail-is-rotating-my-image/6218425#6218425
+
 
 def main():
 
@@ -28,32 +25,5 @@ def basicLighten(orig_image):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if  __name__ == "__main__":
     main()
-
-
-
